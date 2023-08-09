@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html lang="en-US" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+    <head>
+    <title>Hastane Randuvu Sistemi</title>
+    <meta charset="UTF-8">
+    </meta>
+</head>
+<body>
+     <h2 th:text="${model.getTitle()}"> </h2>
+    <h2 th:text="${model.getContent}"></h2>
+    <<ul>
+        <li th:each="urun: ${model.getUList}">first</li>
+       
+    </ul>
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+    
+server:
+    port: 9090
+    
+spring:
+    main:
+        allow-circular-references: true
+    datasource:
+        url: "jdbc:postgresql://localhost:5432/HastaneRandevuDb"
+        username: "postgres"
+        password: "192837"
+        driver-class-name: "org.postgresql.Driver"
+    jpa:
+      hibernate:
+        ddl-auto: update  
+      show-sql: true    
+      
+myapplication:
+    name: "Hastane Randevu Sistemi"
+    version: "1.0.0"
+    description: "Hastane Randevu Sistemi"
+
+burayaistediginiyazabilirsin:
+    bunun-bir-kriteri-yok: "dene istersen"
+        
+        
+        
